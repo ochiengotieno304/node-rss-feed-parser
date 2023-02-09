@@ -1,0 +1,16 @@
+{
+  "name": "rss",
+  "version": "1.0.0",
+  "description": "rss feed reader terminal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "prompt": "^1.3.0",
+    "prompt-sync": "^4.2.0",
+    "rss-parser": "^3.12.0"
+  }
+}
