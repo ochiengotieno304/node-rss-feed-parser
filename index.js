@@ -9,7 +9,7 @@ let parser = new Parser();
 	console.log(feed.title);
 
 	feed.items.forEach((item, index) => {
-		console.log(`${index}. ` + item.title + ': ' + item.link);
+		console.log(`${index + 1}. ` + item.title + ': ' + item.link);
 		console.log('\n');
 	});
 })();
